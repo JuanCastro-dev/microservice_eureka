@@ -2,7 +2,9 @@ package io.github.JuanCastro_dev.msclientes.domain;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @Entity
 @Data
