@@ -4,6 +4,7 @@ import io.github.JuanCastro_dev.msclientes.application.dto.ClienteCreateDto;
 import io.github.JuanCastro_dev.msclientes.application.service.ClienteService;
 import io.github.JuanCastro_dev.msclientes.domain.Cliente;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
@@ -14,12 +15,14 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/clientes")
 @RequiredArgsConstructor
+@Slf4j
 public class ClientesController {
 
     private final ClienteService service;
 
     @GetMapping
     private String status(){
+        log.info("Obtendo o status do microsservico de clientes");
         return "OK";
     }
 
