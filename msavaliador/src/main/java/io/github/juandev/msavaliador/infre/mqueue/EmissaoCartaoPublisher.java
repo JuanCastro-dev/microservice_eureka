@@ -4,7 +4,6 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.github.juandev.msavaliador.domain.model.DadosSolicitacaoEmissaoCartao;
 import lombok.RequiredArgsConstructor;
-import lombok.var;
 import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 
