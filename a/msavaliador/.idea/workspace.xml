@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fad270b-6852-4b89-ac01-7c1730d5eac2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../a/msavaliador/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="08cccf99-5c53-475f-89a7-5a5297b713e1" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../../mscartoes/src/main/java/mscartoes/application/ClienteCartao.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../mscartoes/src/main/java/mscartoes/application/dto/ClienteCartaoDto.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../mscartoes/src/main/java/mscartoes/application/service/ClienteCartaoService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../mscartoes/src/main/java/mscartoes/infra/repository/ClienteCartaoRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../mscartoes/src/main/java/mscartoes/application/CartoesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mscartoes/src/main/java/mscartoes/application/CartoesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msgateway/src/main/java/io/github/JuanCastro_dev/msgateway/CloudGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../msgateway/src/main/java/io/github/JuanCastro_dev/msgateway/CloudGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../msgateway/msgateway/src/main/java/io/github/JuanCastro_dev/msgateway/CloudGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../msgateway/msgateway/src/main/java/io/github/JuanCastro_dev/msgateway/CloudGatewayApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,27 +28,29 @@
     </option>
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
+  &quot;associatedIndex&quot;: 2
 }</component>
-  <component name="ProjectId" id="2t2yWHof6PqIFh5JYBPXykCkTXb" />
+  <component name="ProjectId" id="2t67sNTlXEV2jdYKXj0ozAuz0Oc" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Pichau/Documents/Coisas de emprego/Coisas da Compass/Microsserviços/Eureka/msavaliador",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
-    <configuration name="MscartoesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="MsavaliadorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="mscartoes" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="mscartoes.MscartoesApplication" />
+      <module name="msavaliador" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.github.juandev.msavaliador.MsavaliadorApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -66,13 +67,14 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8fad270b-6852-4b89-ac01-7c1730d5eac2" name="Changes" comment="" />
-      <created>1739564495241</created>
+      <changelist id="08cccf99-5c53-475f-89a7-5a5297b713e1" name="Changes" comment="" />
+      <created>1739660877258</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1739564495241</updated>
-      <workItem from="1739564496238" duration="82000" />
-      <workItem from="1739727714080" duration="3000" />
+      <updated>1739660877258</updated>
+      <workItem from="1739660878184" duration="63000" />
+      <workItem from="1739716012544" duration="57000" />
+      <workItem from="1739727095452" duration="60000" />
     </task>
     <servers />
   </component>

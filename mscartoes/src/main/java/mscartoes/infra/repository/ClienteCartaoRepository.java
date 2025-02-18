@@ -1,4 +1,10 @@
 package mscartoes.infra.repository;
 
-public interface ClienteCartaoRepository {
+import mscartoes.application.ClienteCartao;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.List;
+
+public interface ClienteCartaoRepository extends JpaRepository<ClienteCartao, Long> {
+    List<ClienteCartao> findByCpf(String cpf);
 }

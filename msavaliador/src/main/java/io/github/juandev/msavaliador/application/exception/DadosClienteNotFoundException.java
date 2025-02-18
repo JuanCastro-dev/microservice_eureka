@@ -1,7 +1,7 @@
 package io.github.juandev.msavaliador.application.exception;
 
-public class DadosClienteNotFoundException extends RuntimeException {
-  public DadosClienteNotFoundException(String message) {
-    super(message);
-  }
+public class DadosClienteNotFoundException extends Exception {
+    public DadosClienteNotFoundException() {
+        super("Dados do cliente não encontrados");
+    }
 }
